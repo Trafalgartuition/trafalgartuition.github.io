@@ -1,5 +1,5 @@
 ---
-title: "Blog #1 – Too Simple to Prove"
+title: "Blog #001 – Too Simple to Prove"
 layout: post
 math: true
 ---
@@ -9,39 +9,34 @@ math: true
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body);"></script>
 
-
-# Blog #001: FTSE 1 - Too Simple to Prove?
+# Blog #001: FTSE 1 – Too Simple to Prove?
 (Part of the FTSE Series: Formulae Teachers Should Explain)
 
 ## Motivation
 
-In many classrooms today, teachers face a difficult balancing act; between managing behaviour, keeping lessons moving at pace, and meeting the demands of exam boards, it's often necessary to focus purely on how to use a formula — rather than why the formula makes sense in the first place.
+In many classrooms today, teachers face a difficult balancing act: between managing behaviour, keeping lessons moving at pace, and meeting the demands of exam boards, it’s often necessary to focus purely on how to use a formula — rather than why the formula makes sense.
 
-This isn't because teachers don't know the deeper logic behind formulas.
-In reality, most teachers understand it very well — but the pressures of a busy, noisy classroom, the need to manage and differentiate for a mixed-ability classroom, and the urgent demands of finishing the syllabus mean that sometimes the journey to the formula is sacrificed for the sake of simply getting to the answer.
+This isn’t because teachers don't know the deeper logic behind formulas. In reality, most teachers understand it very well — but the pressures of a busy, noisy classroom, the need to differentiate for a mixed-ability group, and the demands of finishing the syllabus mean that sometimes the journey to the formula is sacrificed for the sake of getting to the answer.
 
 When you're faced with:
-
 - Disruptive behaviour,
-
 - Pupils who struggle with basic numeracy,
-
 - Students battling low motivation, confidence, or difficult home lives,
 
-you have to choose your battles carefully. Explaining the full derivation of a formula sometimes just isn't realistic when you have to get 30 teenagers through a timed exam and meet performance targets set by school leadership teams, where the pressure often falls back on the classroom teacher.
+you have to choose your battles carefully. Explaining the full derivation of a formula sometimes just isn't realistic when you need to get 30 teenagers through an exam.
 
-That's where the **FTSE Series** comes in! 
+That's where the **FTSE Series** comes in!
 
 **Formulae Teachers Should Explain** is a project to take a step back — to show students (and curious minds) that most formulas are not magic, but logical outcomes of simple ideas and clear definitions.
 
 The goal is simple:
-
-- To rebuild some of the missing bridges between intuition, logic, and the final formula 
-- To make maths make sense, not simply just be memorised.
+- To rebuild missing bridges between intuition, logic, and the final formula,
+- To make maths make sense, not just memorised.
 
 ## So Let’s Begin!
 
-In maths, some facts feel so obvious that we almost forget they need proving;take the area of a rectangle, for example. It's usually introduced as a postulate — something we accept without proof:
+In maths, some facts feel so obvious that we almost forget they need proving.  
+Take the area of a rectangle, usually introduced as a postulate:
 
     Area of rectangle = base × height
 
