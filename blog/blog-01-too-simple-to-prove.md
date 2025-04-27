@@ -37,9 +37,9 @@ The goal is simple:
 
 In maths, some facts feel so obvious that we almost forget they need proving; take the area of a rectangle - it is so simple that it is introduced as a **postulate**:
 
-    $$
+$$
     \boxed{\text{Area of rectangle} = \frac{1}{2} \times \text{base} \times \text{height}}
-    $$
+$$
 
 
 Because it's so simple, we might overlook the deeper ideas it unlocks — like understanding the area of a triangle.
@@ -51,6 +51,7 @@ This idea can seem so obvious that it hardly feels worth questioning – but que
 To explore this visually, I've made a Desmos interactive here:
 👉 <iframe src="https://www.desmos.com/calculator/7l5dxfudnr?embed" width="600" height="400" style="border: 1px solid #ccc;" frameborder="0"></iframe>
 
+
 What you’ll notice:
 
 - A rectangle can be split into two identical triangles by drawing a diagonal.
@@ -59,9 +60,9 @@ What you’ll notice:
 
 - That's why the formula for a triangle is:
 
-    $$
+$$
     \text{Area} = \frac{1}{2} \times \text{base} \times \text{height}
-    $$
+$$
 
 But there's something even more interesting:
 
@@ -78,7 +79,7 @@ The Key Idea:
 No matter how the triangle bends, as long as we use the correct base and the vertical height, the area is always:
 
 $$
-\boxed{\text{Area} = \frac{1}{2} × \text{base} × \text{height}}
+    \boxed{\text{Area} = \frac{1}{2} × \text{base} × \text{height}}
 $$
 
 ## What About Squares?
@@ -88,7 +89,7 @@ Now let's look at an even simpler case: the square.
 In a square, the base and the height are the same. That means the area becomes:
 
 $$
- \boxed{\text{Area} = \text{base} × \text{base}}
+    \boxed{\text{Area} = \text{base} × \text{base}}
 $$
 
 or more neatly:
@@ -102,7 +103,7 @@ $$
 Example:
 If one side of a square is 5 units long, the area is calculated as:
 $$
-    \text{Area} = 5² = 25
+    \text{Area} = 5² = 25 \text{units}
 $$
 
 ## Perimeter vs Area
@@ -113,6 +114,7 @@ It's important to remember:
 - Perimeter measures how far you would walk around the edge.
 
 For a rectangle:
+
 $$
     \text{Perimeter} = 2 × (\text{base} + \text{height})
 $$
@@ -138,9 +140,9 @@ For squares, you can go a step further: you can find the side length by taking t
 
 ### Example:
 
-A square has an area of 49 units², the side length, $l$ , would be:
+A square has an area of 49 units², the side length would be:
 $$
-    l = \sqrt{49} = 7
+    l = \sqrt{49} = 7 \text{units}
 $$
 
 ## What’s Next?
