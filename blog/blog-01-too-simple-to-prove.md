@@ -35,10 +35,12 @@ The goal is simple:
 
 ## So Let’s Begin!
 
-In maths, some facts feel so obvious that we almost forget they need proving.  
-Take the area of a rectangle, usually introduced as a postulate:
+In maths, some facts feel so obvious that we almost forget they need proving; take the area of a rectangle - it is so simple that it is introduced as a **postulate**:
 
-    Area of rectangle = base × height
+    $$
+    \boxed{\text{Area of rectangle} = \frac{1}{2} \times \text{base} \times \text{height}}
+    $$
+
 
 Because it's so simple, we might overlook the deeper ideas it unlocks — like understanding the area of a triangle.
 
@@ -47,7 +49,7 @@ This idea can seem so obvious that it hardly feels worth questioning – but que
 ### Desmos Interactive
 
 To explore this visually, I've made a Desmos interactive here:
-👉 [**Try the widget**](https://www.desmos.com/calculator/7l5dxfudnr)
+👉 <iframe src="https://www.desmos.com/calculator/7l5dxfudnr?embed" width="600" height="400" style="border: 1px solid #ccc;" frameborder="0"></iframe>
 
 What you’ll notice:
 
@@ -76,7 +78,7 @@ The Key Idea:
 No matter how the triangle bends, as long as we use the correct base and the vertical height, the area is always:
 
 $$
-Area = \frac{1}{2} × base × height
+\boxed{\text{Area} = \frac{1}{2} × \text{base} × \text{height}}
 $$
 
 ## What About Squares?
@@ -86,7 +88,7 @@ Now let's look at an even simpler case: the square.
 In a square, the base and the height are the same. That means the area becomes:
 
 $$
-    \text{Area} = \text{base} × \text{base}
+ \boxed{\text{Area} = \text{base} × \text{base}}
 $$
 
 or more neatly:
@@ -94,6 +96,7 @@ or more neatly:
 $$
     \text{Area} = \text{base^2}
 $$
+
 (read as "base squared")
 
 Example:
@@ -135,7 +138,7 @@ For squares, you can go a step further: you can find the side length by taking t
 
 ### Example:
 
-A square has an area of 49 units², the side length, $l$, would be:
+A square has an area of 49 units², the side length, $l$ , would be:
 $$
     l = \sqrt{49} = 7
 $$
