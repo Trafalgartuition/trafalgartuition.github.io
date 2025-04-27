@@ -10,7 +10,7 @@ math: true
     onload="renderMathInElement(document.body);"></script>
 
 
-# Blog #01: FTSE 1 - Too Simple to Prove?
+# Blog #001: FTSE 1 - Too Simple to Prove?
 (Part of the FTSE Series: Formulae Teachers Should Explain)
 
 ## Motivation
