@@ -1,5 +1,16 @@
-# Blog #01: FTSE 1 - Too Simple to Prove?
+---
+title: "Blog #1 – Too Simple to Prove"
+layout: post
+math: true
+---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body);"></script>
+
+
+# Blog #01: FTSE 1 - Too Simple to Prove?
 (Part of the FTSE Series: Formulae Teachers Should Explain)
 
 ## Motivation
