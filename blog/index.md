@@ -4,4 +4,4 @@ layout: page
 ---
 # Blog Posts
 
-This is where the blog posts will live.
+- [Blog #1 – Too Simple to Prove](/blog/blog-01-too-simple-to-prove.html)
