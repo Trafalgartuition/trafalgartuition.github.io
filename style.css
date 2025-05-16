@@ -49,3 +49,21 @@ footer {
   font-size: 0.9em;
   margin-top: 2em;
 }
+
+/* === Blog Tag Styling === */
+
+.tags {
+  display: inline-block;
+  background-color: #d9eaff; /* soft blue background */
+  color: #004080;            /* matches header/nav theme */
+  border-radius: 12px;
+  padding: 2px 8px;
+  margin-left: 6px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.tags:hover {
+  background-color: #b3d1ff;
+  cursor: default;
+}
