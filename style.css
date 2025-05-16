@@ -67,3 +67,7 @@ footer {
   background-color: #b3d1ff;
   cursor: default;
 }
+
+.categories ul li {
+  margin-bottom: 1em;
+}
