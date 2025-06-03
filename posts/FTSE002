@@ -1,0 +1,72 @@
+<article>
+  <h1>Trapezium Area</h1>
+
+  <p><strong>Author:</strong> Your Name</p>
+  <p><strong>Tags:</strong> GCSE, Maths, FTSE, Area, Proof</p>
+  <p><strong>Date:</strong> YYYY-MM-DD</p>
+
+  <h2>Introduction</h2>
+  <p>
+    After understanding how the area of a triangle is calculated, we now turn to the next shape: the <strong>trapezium</strong> — a quadrilateral with one pair of parallel sides.
+    The formula for area is:
+  </p>
+
+  <p>
+    <span class="katex-display">Area = (h / 2) × (a + b)</span>
+  </p>
+
+  <p>
+    It’s the kind of formula that gets tossed onto a formula sheet and memorised without much thought. But what justifies it? Why do we include the factor of a half? And why do we need to add the two bases together? In this post, we will break down two different proofs – and give the respect it deserves.
+  </p>
+
+  <h2>Set-up</h2>
+  <p>
+    Here is an example of a trapezium, properly labelled with parallel sides <em>a</em> and <em>b</em>, and a vertical height <em>h</em>. We’ll prove the formula in two ways:
+  </p>
+
+  <h3>Trapezium Area Formula:</h3>
+  <p><span class="katex-display">Area = (h / 2)(a + b)</span></p>
+
+  <h3>Case 1: Split into Two Triangles</h3>
+  <ul>
+    <li>Divide the trapezium into two triangles.</li>
+    <li>Each triangle has height <em>h</em>, and bases <em>a</em> and <em>b</em>.</li>
+  </ul>
+
+  <pre><code>
+Area = ½ h a + ½ h b
+     = ½ h (a + b)
+     = (h / 2)(a + b) ☐
+  </code></pre>
+
+  <p>Notice that the last line doesn't change much, but keeps everything more visual and algebraic.</p>
+
+  <h3>Case 2: Subtract a Triangle from a Rectangle</h3>
+  <p>Visually, you can imagine a trapezium as a rectangle where a triangle has been sliced off the side.</p>
+
+  <pre><code>
+Area = a h - ½ (a - b) h
+     = h [a - ½(a - b)]
+     = h [a - ½a + ½b]
+     = (h / 2)(a + b) ☐
+  </code></pre>
+
+  <h2>Conclusion</h2>
+  <p>
+    Two methods, one formula — and a better grasp of <em>why</em> it works.
+    The more tools you have, the more you have available to tackle a new problem, and the sharper your problem-solving skills become over time.
+  </p>
+
+  <hr>
+
+  <p>🔗 Next up: We will be introducing the 3 equations that help introduce us to the topic of trigonometry, also known as SOHCAHTOA!</p>
+
+  <hr>
+
+  <h3>Related Posts</h3>
+  <ul>
+    <li><a href="/posts/003-ftse-sohcahtoa.html">003 - SOHCAHTOA (FTSE003)</a></li>
+    <li><a href="./posts/previous-post.html">Previous Post Title</a></li>
+    <li><a href="./posts/next-post.html">Next Post Title</a></li>
+  </ul>
+</article>
