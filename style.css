@@ -1,3 +1,5 @@
+/* === General Styling === */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -70,4 +72,43 @@ footer {
 
 .categories ul li {
   margin-bottom: 1em;
+}
+
+/* === Accordion Styling for FAQ === */
+
+.accordion {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.accordion-item {
+  margin-bottom: 1em;
+}
+
+.accordion-question {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  padding: 0.75em 1em;
+  cursor: pointer;
+  background-color: #e6f0ff;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.accordion-question:hover {
+  background-color: #d0e2ff;
+}
+
+.accordion-answer {
+  display: none;
+  padding: 1em;
+  background-color: #ffffff;
+  border-left: 4px solid #004080;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
