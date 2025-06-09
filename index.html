@@ -6,25 +6,63 @@
   <title>Trafalgar Tuition</title>
   <link rel="stylesheet" href="style.css" />
 
-<style>
+  <style>
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #004080; /* dark blue */
+      padding: 10px 20px;
+      color: white;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      padding-left: 0;
+      margin-left: auto;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     .button {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #004080; /* dark blue */
+      background-color: #004080;
       color: white;
       text-decoration: none;
       border-radius: 6px;
       font-weight: bold;
       transition: background-color 0.3s ease;
     }
+
     .button:hover {
-      background-color: #0066cc; /* lighter blue on hover */
+      background-color: #0066cc;
     }
-</style>
+  </style>
 </head>
 <body>
 
 <header>
+  <img src="https://cdn.wildapricot.com/301230/resources/Documents/Individual%20Member.png" alt="TTA Member Logo" />
   <h1>Trafalgar Tuition</h1>
   <nav>
     <ul>
@@ -41,33 +79,31 @@
   </nav>
 </header>
 
-  <main>
-    <section class="hero">
-      <h2>Welcome!</h2>
-      <p>This is the start of something big. Trafalgar Tuition is launching July 2025 with top-tier tutoring, smart resources, and learning support you can count on.</p>
-    </section>
+<main>
+  <section class="hero">
+    <h2>Welcome!</h2>
+    <p>This is the start of something big. Trafalgar Tuition is launching July 2025 with top-tier tutoring, smart resources, and learning support you can count on.</p>
+  </section>
 
-    <section class="coming-soon">
-      <h3>What’s Coming?</h3>
-      <ul>
-        <li>🧠 Blog posts about learning & problem-solving</li>
-        <li>📚 Resources for revision and self-marking</li>
-        <li>🎓 Guidance for university applications</li>
-        <li>🎥 TikTok content + live study sessions</li>
-      </ul>
-    </section>
+  <section class="coming-soon">
+    <h3>What’s Coming?</h3>
+    <ul>
+      <li>🧠 Blog posts about learning & problem-solving</li>
+      <li>📚 Resources for revision and self-marking</li>
+      <li>🎓 Guidance for university applications</li>
+      <li>🎥 TikTok content + live study sessions</li>
+    </ul>
+  </section>
 
-      <section class="visit-blog">
-        <h3>Explore More</h3>
-        <p><a href="./blog/" class="button">Visit the Blog</a></p>
-      </section>
-  </main>
+  <section class="visit-blog">
+    <h3>Explore More</h3>
+    <p><a href="./blog/" class="button">Visit the Blog</a></p>
+  </section>
+</main>
 
-
-  
-  <footer>
-    <p>&copy; 2025 Trafalgar Tuition. All rights reserved.</p>
-  </footer>
+<footer>
+  <p>&copy; 2025 Trafalgar Tuition. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
