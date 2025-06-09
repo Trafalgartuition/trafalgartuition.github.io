@@ -112,3 +112,12 @@ footer {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
+.brand-link {
+  color: white;
+  text-decoration: none;
+}
+
+.brand-link:hover {
+  text-decoration: underline;
+}
