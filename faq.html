@@ -241,5 +241,15 @@
   <p>&copy; 2025 Trafalgar Tuition. All rights reserved.</p>
 </footer>
 
+<script>
+  document.querySelectorAll(".accordion-question").forEach((button) => {
+    button.addEventListener("click", () => {
+      const answer = button.nextElementSibling;
+      const isVisible = answer.style.display === "block";
+      answer.style.display = isVisible ? "none" : "block";
+    });
+  });
+</script>
+  
 </body>
 </html>
