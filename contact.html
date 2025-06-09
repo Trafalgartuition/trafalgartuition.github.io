@@ -1,42 +1,132 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Trafalgar Tuition</title>
+  <title>Trafalgar Tuition</title>
   <link rel="stylesheet" href="style.css" />
+
   <style>
-    .contact {
-      max-width: 700px;
-      margin: 2em auto;
-      padding: 1em;
-      font-size: 1.1em;
-      line-height: 1.6;
+    * {
+      box-sizing: border-box;
     }
-    .contact a {
-      color: #004080;
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #004080;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 10px 20px;
+    }
+
+    header img {
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.75rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      padding-left: 0;
+      margin: 10px 0 0 0;
+      gap: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
       text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0066cc;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      header h1 {
+        font-size: 1.4rem;
+        margin-top: 10px;
+      }
+
+      header img {
+        height: 45px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <header>
+<header>
+  <div class="branding">
+    <a href="https://thetutorsassociation.org.uk/" target="_blank" rel="noopener">
+      <img src="images/tta-logo.png" alt="Member of The Tutors’ Association" title="View my TTA membership" />
+    </a>
     <h1>Trafalgar Tuition</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="rates.html">Rates</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="manifesto.html">Manifesto</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="rates.html">Rates</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="manifesto.html">Manifesto</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
   <main>
     <section class="contact">
@@ -47,9 +137,9 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Trafalgar Tuition. All rights reserved.</p>
-  </footer>
+<footer>
+  <p>&copy; 2025 Trafalgar Tuition. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
