@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FTSE001 – Triangles | Trafalgar Tuition</title>
+  <link rel="stylesheet" href="../style.css" />
+
+  <!-- KaTeX Setup -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+          onload="renderMathInElement(document.body);"
+          crossorigin="anonymous">
+  </script>
+</head>
+<body>
+
+  <header>
+    <h1>Trafalgar Tuition</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../resources.html">Resources</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../rates.html">Rates</a></li>
+        <li><a href="../reviews.html">Reviews</a></li>
+        <li><a href="../manifesto.html">Manifesto</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+      <article class="blog-post">
+        <h1>The Sine Rule</h1>
+          <p><strong>Date:</strong> 2025-06-11 • <strong>Author:</strong> Trafalgar Tuition</p>
+          <p><strong>Tags:</strong> GCSE, Maths, FTSE, Trigonometry, Proof</p>
+        <hr />
+
+      <h2>Introduction</h2>
+        <p>
+          \[ \displaystyle \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} \]
+        </p>
+        <p>
+          This formula often overwhelms students — too many fractions, too many letters. But it's really just an elegant extension of triangle logic. Let’s explore where it comes from and why it works.
+        </p>
+
+      <h2>Motivation</h2>
+        <p>
+          If we don’t know the height of a triangle, we can’t use the familiar formula:
+        </p>
+        <p>
+          $$\text{Area} = \frac{1}{2} b h$$
+        </p>
+        <p>
+          But if we know two sides and an angle, trigonometry gives us another way — and that’s where the sine rule comes in.
+        </p>
+      <h2>Housekeeping</h2>
+        <p>
+          We need to label triangles properly with using the same letter for opposite sides and angles, like so:
+        </p>
+        <p>where</p>
+        <ul>
+          <li>Use <strong>capital letters</strong> (A, B, C) for the angles.</li>
+          <li>Label the side <strong>side opposite the angles</strong> using the same letter  in lowercase (a, b, c).</li>
+        </ul>
+
+        <div class="diagram-placeholder">
+          📐 Diagram: Triangle ABC with height drawn from point B to side AC.
+        </div>
+        
+        <p>
+          For consistency, we can define point D as where the line **AC** meets the perpendicular line from point <strong>B</strong>.
+        </p>
+
+      <h2>Proof</h2>
+        <p>
+          Start with triangle ABC. Draw a perpendicular from point <strong>B</strong> to the base <strong>AC</strong>, and call the foot of the perpendicular <strong>D</strong>. This gives us a height <strong>BD</strong>.
+        </p>
+        <p>
+          We now have two right-angled triangles: **ABD** and **CBD**.
+        </p>
+        <p>
+          In triangle **ABC**, let’s first apply the sine definition to angle **A**:
+        </p>
+        <p>$$\sin A = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{BD}{c} \quad \Rightarrow \quad BD = c \sin A$$</p>
+        <p>Now apply the same to angle <strong>C</strong>:</p>
+        <p>$$\sin C = \frac{BD}{a} \quad \Rightarrow \quad BD = a \sin C$$</p>
+        <p>Since both expressions equal <strong>BD</strong>, we can equate them together:</p>
+        <p>$$c \sin A = a \sin C$$</p>
+        <p>Now rearrange:</p>
+        <p>$$\frac{a}{\sin A} = \frac{c}{\sin C} \;\;\;\square$$</p>
+        <p>This is the sine rule — and you can derive similar expressions by choosing different pairs of angles and sides.</p>
+        
+        <h2>Conclusion</h2>
+          <p>
+            The sine rule allows us to solve <em>any</em> triangle — not just right-angled ones. It works because we can always draw a height, no matter which side we treat as the base. In the next post, we’ll use this rule in a worked example.
+          </p>
+
+        <hr>
+          <p>🔗 🔗 Next up: Before the introduction of the cosine rule, introductions must be made to one of the most common and well-known equations in all of maths: Pythagoras' theorem!</p>
+
+        <h3>Related Posts</h3>
+          <ul>
+            <li><a href="./FTSE002.html">Sine Rule (FTSE003)</a></li>
+            <li><a href="./FTSE004.html">Pythagoras' Theorem (FTSE005)</a></li>
+          </ul>
+
+      </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Trafalgar Tuition. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
