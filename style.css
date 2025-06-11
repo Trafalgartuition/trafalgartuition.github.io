@@ -26,10 +26,16 @@ nav ul li {
   margin: 0 1em;
 }
 
-nav ul li a {
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:active {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -113,7 +119,11 @@ footer {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.brand-link {
+/* === Branding Links === */
+
+.brand-link,
+.brand-link:visited,
+.brand-link:active {
   color: white;
   text-decoration: none;
 }
@@ -128,4 +138,9 @@ footer {
   width: auto;
   max-width: 100%;
   display: inline-block;
+}
+
+/* === Prevent logo discoloration if inside visited <a> === */
+.branding a:visited img {
+  filter: none;
 }
